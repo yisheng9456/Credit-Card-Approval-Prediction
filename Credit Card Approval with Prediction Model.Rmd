@@ -1,0 +1,88 @@
+---
+title: ""
+
+output:
+  slidy_presentation: default
+  powerpoint_presentation: default
+  ioslides_presentation: default
+  css: mystyle.css
+date: "2023-01-07"
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<div class="center">
+## Credit Card Approval with Prediction Model
+
+**WQD7001 Principle of Data Science Group Project**  
+
+**Group 4 – Smart Solution Enabler**  
+Teo Kwee Kim (S2181984)  
+Koh Yi Sheng (S2188155)  
+Ng Boon Sheng (22050617)  
+Ong Horng Neng (S2191604)  
+Lee Li En (S2129847)
+
+</div>
+
+
+## Project Background
+
+**Domain**  
+Finance – Credit Card Approval with Prediction Model
+
+**Introduction**  
+When providing a credit card to a customer, banks had to rely on the applicant’s background and the history to understand the creditworthiness of the applicant. The process includes scrutinization of application data with reference documents and this process was not always accurate and the bank had to face difficulties in approving the credit card. This project aims to help banking and financial institutions to identify and approve the creditworthy customers by using predictive models. 
+
+**Problem Statement**  
+Every bank is experiencing difficult times and credit risk while providing loan to their end clients. It frequently becomes a non-performing credit facility because the repayments are not guaranteed. Credit officers’ judgments and predictions are less accurate with manual verification. 
+
+***
+
+**Research Questions**  
+1. What are the challenges encountered by the banking industry?  
+2. What are the features or variables will affect the approval of a credit card application?  
+3. How to avoid approving credit card application for poor creditworthy customer?  
+4. How to determine the best machine learning models for approving credit card application?  
+5. How does the predictive model solution impact the society?
+
+**Objectives**  
+1. To propose an effective and high prediction accuracy credit card application approval prediction model with implementation of different machine learning algorithms.  
+2. To identify the key features related to the approval of a credit card application.  
+3. To deploy the proposed prediction model with highest prediction accuracy measured with implementation of web-based application.
+
+**Target Organization**  
+National or commercial banks  / financial institutions
+
+**Target User**  
+Credit officer
+
+**Potential Benefits**  
+1. Analyse credit risk accurately  
+2. Automate credit scoring
+
+## Methodology
+Implemented the OSEMN process for the life cycle of this project:
+
+```{r out.width = "70%", fig.align = "center"}
+knitr::include_graphics("OSEMN.jpg")
+```
+
+**Sources of Data**  
+Kaggle  
+The dataset consists of 2 csv files:  
+1. application_record.csv - contains information about applicants including income, children, house ownership etc.  
+2. credit_record.csv - contains credit information about a group of clients.
+
+## Deployment
+**Shiny App**  
+Implemented a web application which consists of a graphical user interface for data entry and visualisation purpose. The application allows the credit officer to get the approval results on the fly by inputting customer information.  
+URL: https://q0033e-horng0neng-ong.shinyapps.io/Credit_Card_Approval_App/  
+
+**GitHub** 
+Uploaded the Python source codes (Jupyter Notebooks) and the datasets into Github.  
+URL: https://github.com/BSheng11/WQD7001_Credit_Card_Approval_Prediction.git  
+
+
+
